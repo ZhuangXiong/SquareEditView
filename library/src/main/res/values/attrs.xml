@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SquareEditView">
+        <attr name="squareCount" format="integer"/>
+        <attr name="squareColor" format="color"/>
+        <attr name="squareTextColor" format="color"/>
+        <attr name="squareTextSize" format="dimension"/>
+        <attr name="squareSelectColor" format="color"/>
+        <attr name="squarePadding" format="dimension"/>
+
+        <attr name="squareTextCharModel" format="enum">
+            <enum name="password" value="1"/>
+            <enum name="normal" value ="0"/>
+        </attr>
+
+
+        <attr name="squareSelectModel" format="enum">
+            <enum name="selectHaveInput" value="2"/>
+            <enum name="selectCurrent" value="1"/>
+            <enum name="normal" value ="0"/>
+        </attr>
+
+    </declare-styleable>
+</resources>
